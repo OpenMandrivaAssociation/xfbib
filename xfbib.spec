@@ -7,6 +7,8 @@ Group:		Graphical desktop/Xfce
 Url:		http://goodies.xfce.org/projects/applications/%{name}
 Source0:	http://goodies.xfce.org/releases/%{name}/%{name}-%{version}.tar.bz2
 BuildRequires:	libxfcegui4-devel
+BuildRequires:	bison
+BuildRequires:	flex
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
@@ -49,6 +51,6 @@ way of editing BibTeX files.
 %files -f %{name}.lang
 %defattr(-,root,root)
 %doc AUTHORS README
-%{_bindir}/%{name
+%{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}.png
