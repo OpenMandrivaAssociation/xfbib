@@ -1,6 +1,6 @@
 Summary:	A lightweight BibTeX editor developed for the Xfce desktop environment
 Name:		xfbib
-Version:	0.0.1
+Version:	0.0.2
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
