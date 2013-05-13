@@ -6,7 +6,7 @@ License:	GPLv2+
 Group:		Graphical desktop/Xfce
 Url:		http://goodies.xfce.org/projects/applications/%{name}
 Source0:	http://goodies.xfce.org/releases/%{name}/%{name}-%{version}.tar.bz2
-BuildRequires:	libxfcegui4-devel
+BuildRequires:	pkgconfig(libxfcegui4-1.0)
 BuildRequires:	bison
 BuildRequires:	flex
 
