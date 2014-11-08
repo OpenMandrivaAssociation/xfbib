@@ -1,7 +1,7 @@
 Summary:	A lightweight BibTeX editor developed for the Xfce desktop environment
 Name:		xfbib
 Version:	0.0.2
-Release:	12
+Release:	13
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 Url:		http://goodies.xfce.org/projects/applications/%{name}
@@ -19,7 +19,7 @@ way of editing BibTeX files.
 %setup -q
 
 %build
-%configure2_5x
+%configure
 
 %make
 
