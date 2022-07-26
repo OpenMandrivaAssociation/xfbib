@@ -8,6 +8,7 @@ Url:		http://goodies.xfce.org/projects/applications/%{name}
 Source0:	https://git.xfce.org/archive/xfbib/snapshot/xfbib-%{version}.tar.gz
 BuildRequires:	pkgconfig(libxfce4ui-2)
 BuildRequires:	pkgconfig(libxfce4util-1.0)
+BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	bison
 BuildRequires:	flex
 BuildRequires:  xfce4-dev-tools 
