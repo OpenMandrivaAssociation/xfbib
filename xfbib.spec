@@ -10,6 +10,8 @@ BuildRequires:	pkgconfig(libxfce4ui-2)
 BuildRequires:	pkgconfig(libxfce4util-1.0)
 BuildRequires:	bison
 BuildRequires:	flex
+BuildRequires:  xfce4-dev-tools 
+BuildRequires:  libtool
 
 %description
 Xfbib is a lightweight BibTeX editor developed for the Xfce.
@@ -20,6 +22,7 @@ way of editing BibTeX files.
 %setup -q
 
 %build
+xdt-autogen
 %configure
 
 %make
