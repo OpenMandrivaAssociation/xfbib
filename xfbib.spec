@@ -4,7 +4,7 @@ Version:	0.1.0
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-Url:		http://goodies.xfce.org/projects/applications/%{name}
+Url:		https://goodies.xfce.org/projects/applications/%{name}
 Source0:	https://git.xfce.org/archive/xfbib/snapshot/xfbib-%{version}.tar.gz
 BuildRequires:	pkgconfig(libxfce4ui-2)
 BuildRequires:	pkgconfig(libxfce4util-1.0)
