@@ -6,6 +6,11 @@ License:	GPLv2+
 Group:		Graphical desktop/Xfce
 Url:		https://goodies.xfce.org/projects/applications/%{name}
 Source0:	https://git.xfce.org/archive/xfbib/snapshot/xfbib-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libxfce4ui-2)
 BuildRequires:	pkgconfig(libxfce4util-1.0)
 BuildRequires:	pkgconfig(gtk+-2.0)
